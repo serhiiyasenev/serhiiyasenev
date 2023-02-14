@@ -1,4 +1,4 @@
 ### Hi there 👋
 
-[![Serhii GitHub stats](https://github-readme-stats.vercel.app/api?username=serhiiyasenev)](https://github.com/anuraghazra/github-readme-stats)
+[![Serhii' GitHub stats](https://github-readme-stats.vercel.app/api?username=serhiiyasenev)]
 

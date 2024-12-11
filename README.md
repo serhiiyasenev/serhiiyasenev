@@ -13,7 +13,7 @@
 ---
 
 ### Knowledge and Tools
-[![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,docker,postman,azure,git,selenium,gherkin,ts,angular,githubactions,rabbitmq,&theme=dark&perline=12)](https://skillicons.dev)
+[![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,docker,azure,git,selenium,gherkin,postman,ts,js,angular,github,githubactions,rabbitmq,postgres,ai,&theme=dark&perline=16)](https://skillicons.dev)
 
 ---
 

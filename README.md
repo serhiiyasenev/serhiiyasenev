@@ -25,4 +25,6 @@
 ---
 
 ### Hit me up!
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serhii-yasenev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/serhii-yasenev)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=serhiiyasenev&color=blue)

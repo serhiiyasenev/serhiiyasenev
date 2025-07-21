@@ -14,7 +14,7 @@
 ---
 
 ### Knowledge and Tools
-[![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,ai,docker,azure,git,selenium,gherkin,postman,ts,js,angular,github,githubactions,rabbitmq,postgres,&theme=dark&perline=16)](https://skillicons.dev)
+[![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,ai,ts,js,docker,azure,git,selenium,gherkin,postman,angular,github,githubactions,rabbitmq,postgres,&theme=dark&perline=16)](https://skillicons.dev)
 
 ---
 

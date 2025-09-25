@@ -14,20 +14,16 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+writing+clean+and+readable+code.)](https://git.io/typing-svg)
 
 ---
-
 ### Knowledge and Tools
 [![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,ai,ts,js,docker,azure,git,selenium,gherkin,postman,angular,github,githubactions,rabbitmq,postgres,&theme=dark&perline=16)](https://skillicons.dev)
+---
+### Hit me up!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/serhii-yasenev)
 
+![Visitor Count](https://komarev.com/ghpvc/?username=serhiiyasenev&color=blue)
 ---
 
 ### GitHub Stats
 
 | <a href="https://github.com/serhiiyasenev?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api?username=serhiiyasenev&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Serhii's github stats" /></a> | <a href="https://github.com/serhiiyasenev?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=serhiiyasenev&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
-
----
-
-### Hit me up!
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/serhii-yasenev)
-
-![Visitor Count](https://komarev.com/ghpvc/?username=serhiiyasenev&color=blue)

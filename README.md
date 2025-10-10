@@ -12,7 +12,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+a+burning+desire+to+make+a+difference+in+the+world+of+technology.)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=I'm+constantly+learning,+solving+real+problems+in+projects)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+writing+clean+and+readable+code.+Interested+in+software+development)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=QA,+software+architecture,+reading+books+and+algorithms.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=QA,+AI,+software+architecture,+reading+books+and+algorithms.)](https://git.io/typing-svg)
 
 ---
 ### Knowledge and Tools

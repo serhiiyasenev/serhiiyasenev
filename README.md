@@ -1,4 +1,4 @@
-# Hi everyone! I'm Serhii Yasenev - IT-enthusiast <img src="https://github.com/user-attachments/assets/07811984-6043-4cbf-82ea-6941d1c86aec" width="45" height="45">
+# Hi everyone! I'm Serhii Yasenev — IT-enthusiast <img src="https://github.com/user-attachments/assets/07811984-6043-4cbf-82ea-6941d1c86aec" width="45" height="45">
 
 ---
 

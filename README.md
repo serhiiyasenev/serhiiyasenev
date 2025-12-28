@@ -4,13 +4,13 @@
 
 ## About me
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=600&height=20&lines=I+usually+use+.Net+and+TS+for+my+projects.)](https://git.io/typing-svg)  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=I'm+a+passionate+and+dedicated+IT+enthusiast+from+Kyiv)](https://git.io/typing-svg) 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=with+a+strong+expertise+in+testing+and+programming+(9%2B+years))](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=Focused+on+building+.NET+APIs+and+automated+testing+solutions)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=I'm+a+passionate+and+dedicated+IT+enthusiast+from+Kyiv,+Ukraine)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=with+a+strong+expertise+in+testing+and+programming+(9%2B+years).)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=600&height=20&lines=I+usually+use+.NET+and+TS+for+my+projects.)](https://git.io/typing-svg)  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=Focused+on+building+.NET/TS+projects+and+automated+testing+solutions)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+a+burning+desire+to+make+a+difference+in+the+world+of+technology.)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=I'm+constantly+learning,+solving+real+problems+in+projects)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+writing+clean+and+readable+code.+Interested+in+software+development,)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=860&height=20&lines=and+writing+clean+and+readable+code.+Interested+in+software+development,)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=QA,+AI,+software+architecture,+reading+books+and+algorithms.)](https://git.io/typing-svg)
 
 ---

@@ -1,30 +1,27 @@
-# Hi everyone! I'm Serhii Yasenev — IT-enthusiast <img src="https://github.com/user-attachments/assets/07811984-6043-4cbf-82ea-6941d1c86aec" width="45" height="45">
+# Serhii Yasenev
 
----
+.NET backend development and test automation · Kyiv, Ukraine
 
-## About me
+I build APIs and application services in C#, work with relational data and messaging, and automate checks at unit, integration and browser levels. This profile brings together application projects, experiments and learning exercises.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=I'm+a+passionate+and+dedicated+IT+enthusiast+from+Kyiv,+Ukraine)](https://git.io/typing-svg) 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=with+a+strong+expertise+in+testing+and+programming+(10+years).)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B18AF7&vCenter=true&random=false&repeat=false&width=800&height=20&lines=I+usually+use+.NET(C%23)+and+TS(React/Angular)+for+my+projects.)](https://git.io/typing-svg)  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=888&height=20&lines=I'm+focused+on+building+.NET/TS+projects+and+automated+testing+solutions)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=and+a+burning+desire+to+make+a+difference+in+the+world+of+technology.)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=I'm+constantly+learning,+solving+real+problems+in+projects)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=860&height=20&lines=and+writing+clean+and+readable+code.+Interested+in+software+development,)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=850&height=20&lines=QA,+AI,+software+architecture,+reading+books+and+algorithms.)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=100&color=B18AF7&vCenter=true&random=false&repeat=false&width=980&height=20&lines=Empowering+synergy+between+business+and+technology+to+drive+efficiency+and+growth.)](https://git.io/typing-svg)
+## Selected projects
 
----
-### Knowledge and Tools
-[![My Main Skills](https://skillicons.dev/icons?i=dotnet,cs,ai,ts,js,docker,azure,git,selenium,gherkin,postman,angular,github,githubactions,rabbitmq,postgres,&theme=dark&perline=16)](https://skillicons.dev)
----
-### Hit me up!
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/serhii-yasenev)
+| Project | Problem and demo | Engineering focus |
+|---|---|---|
+| [TaskManager](https://github.com/serhiiyasenev/TaskManager) | Manage project tasks and deadlines; demonstrate reminders and live notifications | .NET, EF Core/SQL Server, RabbitMQ, SignalR, recovery and automated tests |
+| [BookShop](https://github.com/serhiiyasenev/BookShop) | Maintain a book catalog and reserve items with delivery details | Shared API/MVC business layer, data validation, money precision and schema migrations |
+| [Scheduler](https://github.com/serhiiyasenev/Scheduler) | Find a common free time for participants and reserve a meeting slot | Interval-search logic, API validation and service tests |
 
-![Visitor Count](https://komarev.com/ghpvc/?username=serhiiyasenev&color=blue)
----
+Each project README explains the problem, local setup, a short demo, architectural tradeoffs and known limitations. These are portfolio applications; the repositories do not establish production deployments or measured business outcomes.
 
-### GitHub Stats
+## More work
 
-| <a href="https://github.com/serhiiyasenev?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api?username=serhiiyasenev&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Serhii's github stats" /></a> | <a href="https://github.com/serhiiyasenev?tab=repositories"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=serhiiyasenev&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
+The [repository catalog](REPOSITORIES.md) groups the remaining public work into backend examples, test automation, web exercises, delivery experiments, fundamentals, research and reference projects. Educational repositories and forks are labeled explicitly so they can be evaluated in their intended context.
+
+## Tools used across the repositories
+
+- **Backend and data:** C#, .NET, ASP.NET Core, EF Core, SQL Server, PostgreSQL, RabbitMQ.
+- **Testing:** xUnit, NUnit, Moq, Selenium, Playwright, SpecFlow and Testcontainers.
+- **Web and delivery:** TypeScript, JavaScript, React, Angular, Docker, Azure and GitHub Actions.
+
+[LinkedIn](https://www.linkedin.com/in/serhii-yasenev) · [All public repositories](https://github.com/serhiiyasenev?tab=repositories)

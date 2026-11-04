@@ -1,0 +1,93 @@
+name: Audit dependency vulnerabilities in public repositories
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/public-repository-dependency-audit.yml]
+  schedule:
+    - cron: '45 4 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  enumerate:
+    runs-on: ubuntu-latest
+    outputs:
+      repositories: ${{ steps.inventory.outputs.repositories }}
+    steps:
+      - name: Enumerate public repositories
+        id: inventory
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          repos=$(gh api --paginate 'users/serhiiyasenev/repos?per_page=100&type=owner' --jq '.[] | select(.private == false) | .name' | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          jq -e 'type == "array" and length > 0' <<< "$repos" > /dev/null
+          printf 'repositories=%s\n' "$repos" >> "$GITHUB_OUTPUT"
+          printf 'Discovered %s public repositories\n' "$(jq length <<< "$repos")" >> "$GITHUB_STEP_SUMMARY"
+
+  scan:
+    needs: enumerate
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        repository: ${{ fromJSON(needs.enumerate.outputs.repositories) }}
+    steps:
+      - name: Check out public repository without executing source
+        shell: bash
+        env:
+          REPOSITORY_NAME: ${{ matrix.repository }}
+        run: |
+          set -euo pipefail
+          [[ "$REPOSITORY_NAME" =~ ^[A-Za-z0-9._-]+$ ]] || exit 2
+          git -c protocol.file.allow=never clone --quiet --depth 1 --single-branch --no-recurse-submodules \
+            "https://github.com/serhiiyasenev/${REPOSITORY_NAME}.git" "$RUNNER_TEMP/target"
+
+      - name: Scan dependency manifests with OSV-Scanner
+        env:
+          REPOSITORY_NAME: ${{ matrix.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Version-pinned image. Scanning does not execute package-manager install scripts.
+          set +e
+          docker run --rm \
+            --network bridge \
+            --security-opt no-new-privileges \
+            --read-only \
+            --cap-drop ALL \
+            -v "$RUNNER_TEMP/target:/src:ro" \
+            ghcr.io/google/osv-scanner:v2.7.0 \
+            scan source --recursive --no-resolve --format=json /src \
+            > "$RUNNER_TEMP/osv.json" 2> "$RUNNER_TEMP/osv.stderr"
+          status=$?
+          set -e
+
+          if (( status != 0 && status != 1 )); then
+            echo "OSV-Scanner failed to run; this repository was not verified." >&2
+            exit 2
+          fi
+          if ! jq -e 'type == "object"' "$RUNNER_TEMP/osv.json" > /dev/null 2>&1; then
+            echo "OSV-Scanner did not return valid JSON." >&2
+            exit 2
+          fi
+
+          count=$(jq -r '[.. | objects | .id? | select(type == "string" and test("^(CVE-|GHSA-|GO-|OSV-)"))] | unique | length' "$RUNNER_TEMP/osv.json")
+          {
+            printf '### %s\n' "$REPOSITORY_NAME"
+            printf 'Dependency advisory identifiers detected: %s\n' "$count"
+            printf 'Results cover recognized manifests and lockfiles, not every transitive or deployed dependency.\n'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if (( status == 1 || count > 0 )); then
+            echo "Potential vulnerable dependencies in $REPOSITORY_NAME: $count" >&2
+            # Only advisory IDs; never echo dependency environment variables or secret values.
+            jq -r '[.. | objects | .id? | select(type == "string" and test("^(CVE-|GHSA-|GO-|OSV-)"))] | unique | .[:20][]' "$RUNNER_TEMP/osv.json" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
